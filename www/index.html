@@ -13,17 +13,13 @@
 		<!-- My app main page -->
 		<div data-role="page" id="pageone">
 		  <div data-role="header">
-			<h1>GUI</h1>
+			<h1>Business Card</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<p>The graphical user interface (GUI), is a type of user 
-			interface that allows users to interact with electronic devices 
-			through graphical icons and visual indicators such as secondary 
-			notation, instead of text-based user interfaces, typed command 
-			labels or text navigation. GUIs were introduced in reaction to 
-			the perceived steep learning curve of command-line interfaces (CLIs), 
-			which require commands to be typed on a computer keyboard.</p>
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
+			<p>Name: Barbara Nogaś<br>
+			E-mail: barbara.nogas@gmail.com<br>
+			Field of study: Applied Informatics</p>
+			<a href="#pagetwo" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Interests</a>
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Barbara Nogaś</h1>
@@ -31,13 +27,14 @@
 		</div> 
 		
 		<!-- Mobile device details page -->
-		<div data-role="page" id="details" data-dialog="true">
-			<div data-role="header" data-theme="a">
-				<h1>It's me</h1>
+		<div data-role="page" id="pagetwo">
+			<div data-role="header">
+			<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">back</a>
+				<h1>Interests</h1>
 			</div>
-			<div role="main" class="ui-content">
-				<p id="deviceDetails">Place for device details ...</p>
-			</div>
+			 <div data-role="main" class="ui-content">
+			<p>........</p>
+		  </div>
 		</div>		
 		
 	</body>
